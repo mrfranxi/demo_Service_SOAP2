@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="320dp"
+        app:srcCompat="@drawable/logosqt"
+        android:id="@+id/imgLogo"
+        android:src="@drawable/logosqt"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edtUsername"
+        android:hint="Tên đăng nhập"
+        style="@android:style/Widget.DeviceDefault.EditText"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/edtPassword"
+        android:layout_marginTop="20dp"
+        android:hint="Mật khẩu"
+        style="@android:style/Widget.DeviceDefault.EditText"
+        android:textSize="20sp" />
+
+    <Button
+        android:textSize="20dp"
+        android:text="Đăng nhập"
+        android:layout_width="146dp"
+        android:id="@+id/btnLogin"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="0.08"
+        android:layout_height="60dp" />
+
+</LinearLayout>
